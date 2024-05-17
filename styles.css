@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+    color: green;
+    font-family: monospace;
+    white-space: pre-wrap;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#output {
+    color: green;
+    display: none;
+}
+
+.complete {
+    color: red;
+}
+
+.hacker-message {
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
